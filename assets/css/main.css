@@ -2895,6 +2895,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
+					height:1 20em;
 					width: 100% !important;
 				}
 
@@ -3473,7 +3474,6 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
 					font-size: 0.9em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
