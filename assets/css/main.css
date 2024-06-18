@@ -2774,7 +2774,7 @@ input, select, textarea {
 
 			.tiles article .link.primary {
 				border: 0;
-				height: 60%;
+				height: 100%;
 				left: 0;
 				position: absolute;
 				top: 0;
@@ -2895,7 +2895,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					height: 20em;
+					height:1 20em;
 					width: 100% !important;
 				}
 
