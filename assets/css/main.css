@@ -2520,7 +2520,7 @@ input, select, textarea {
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size:1em;  /* aaron:修改按鈕的文字大小 */
 		font-weight: 600;
 		height: 3.5em;
 		letter-spacing: 0.25em;
@@ -3958,4 +3958,8 @@ input, select, textarea {
 			transform: none;
 			opacity: 1;
 			visibility: visible;
+		}
+
+		.my-color {
+			color: yellow;  /* aaron:自行新增樣式設定首頁下方區塊的標題顏色 */
 		}
