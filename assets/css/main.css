@@ -2827,19 +2827,19 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 50%;/* aaron:指定色塊位置的寬度，以n=1來說, 3跟2位置的色塊寬度會是40% */
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #4b30c0;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #82c4a3;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #d5aebb;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
@@ -3380,7 +3380,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/故宮.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3404,18 +3404,18 @@ input, select, textarea {
 			-moz-transition: opacity 2.5s ease;
 			-webkit-transition: opacity 2.5s ease;
 			-ms-transition: opacity 2.5s ease;
-			transition: opacity 2.5s ease;
+			transition: opacity 1s ease;  /* aaron:修該透明轉場效果持續時間 */
 			-moz-transition-delay: 0.75s;
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			transition-delay: 0.3s; /* aaron:修該網頁打開後要延遲幾秒再開始轉場效果 */
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #412722;/* aaron: banner背景圖遮罩的顏色 */
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.6;/* aaron:不透明度，範圍0~1之間的小數 */
 			position: absolute;
 			top: 0;
 			width: 100%;
