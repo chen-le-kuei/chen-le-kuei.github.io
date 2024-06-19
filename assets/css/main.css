@@ -1911,7 +1911,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(212, 212, 255, 0.4);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -3962,4 +3962,8 @@ input, select, textarea {
 
 		.my-color {
 			color: yellow;  /* aaron:自行新增樣式設定首頁下方區塊的標題顏色 */
+		}
+
+		#two {
+			background-color: darkorange;  /* aaron: 修改首頁下方區塊背景顏色 */
 		}
