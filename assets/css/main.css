@@ -1892,7 +1892,7 @@ input, select, textarea {
 	label {
 		color: #ffffff;
 		display: block;
-		font-size: 0.8em;
+		font-size: 1.5em;
 		font-weight: 600;
 		letter-spacing: 0.25em;
 		margin: 0 0 1em 0;
@@ -2765,7 +2765,8 @@ input, select, textarea {
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				font-size: 2em;/* aaron:調整色塊的標題文字大小 */
+				color: #c5e31a;  /* aaron:調整色塊的標題文字顏色 */
 			}
 
 				.tiles article h3 a:hover {
@@ -2827,8 +2828,16 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 50%;/* aaron:指定色塊位置的寬度，以n=1來說, 3跟2位置的色塊寬度會是40% */
+				width: 40%;/* aaron:指定色塊位置的寬度，以n=1來說, 3跟2位置的色塊寬度會是40% */
 			}
+			.tiles article:nth-child(5) { 
+				width: 80%;/* aaron:指定第5個色塊寬度為100% */
+			}
+			.tiles article:nth-child(6) { 
+				width: 80%;/* aaron:指定第6個色塊寬度為100% */	
+			}
+			
+
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #4b30c0;
