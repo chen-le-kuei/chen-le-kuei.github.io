@@ -3967,3 +3967,29 @@ input, select, textarea {
 		#two {
 			background-color: darkorange;  /* aaron: 修改首頁下方區塊背景顏色 */
 		}
+
+/* aaron:新增inside class來設定設計理念區塊背景和文字顏色和字型大小 */
+.inside {
+    background-color: #4d83a2;
+    color: #f7dfa2;
+    font-size: 1.5em;
+}
+
+/* aaron:新增一個major2讓設定設計理念區塊的標題底線修改不要影響到上面其他的底線樣式 */
+header.major2 {
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: max-content;
+    margin-bottom: 2em;
+}
+
+/* aaron:新增一個major3讓設定設計理念區塊的標題底線修改不要影響到上面其他的底線樣式 */
+header.major2 > :first-child:after {
+    content: '';
+    background-color: #f7dfa2; /* aaron: 色塊標題下方底線的顏色 */
+    display: block;
+    height: 2px;
+    margin: 0.325em 0 0.5em 0;
+    width: 100%;
+}		
