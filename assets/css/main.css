@@ -4042,4 +4042,12 @@ header.major2 > :first-child:after {
 	width: 100%;
 	height: 100%;
 }
-	
+
+
+.kkk:hover {
+	color: brown;  /* 元素顏色 */
+	font-size: 2em;  /* 文字大小 */
+	<!-- /*讓字變色，先在index.html處，輸入導引。本範例：kkk。然後在於.css後方加入此kkk的指令 */ -->
+}
+
+
