@@ -4035,7 +4035,7 @@ header.major2 > :first-child:after {
 		font-size: 1.2em;         /* 文字大小 */
 	
 		overflow: hidden;         /* 讓元素裏頭的圖片不要超出範圍 */
-	}
+}
 	
 .turn-img {
 	width: 100%;
