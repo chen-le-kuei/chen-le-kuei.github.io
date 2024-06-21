@@ -3995,7 +3995,7 @@ header.major2 > :first-child:after {
 }		
 
 
-back-btn {
+.back-btn {
 	position: fixed; /* 將元素設定成固定位置，會固定在網頁畫面的某個地方 */
 	right: 50px;  /* 元素的位置要離畫面右邊多遠 */
 	bottom: 50px; /* 元素的位置要離畫面下面多遠 */
