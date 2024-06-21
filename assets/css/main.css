@@ -4017,11 +4017,12 @@ header.major2 > :first-child:after {
 .back-img {
 	width: 100%;
 	height: 100%;
+}
 
 .turn-btn {
 		position: fixed; /* 將元素設定成固定位置，會固定在網頁畫面的某個地方 */
-		right: 40px;  /* 元素的位置要離畫面右邊多遠 */
-		bottom: 40px; /* 元素的位置要離畫面下面多遠 */
+		right: 100px;  /* 元素的位置要離畫面右邊多遠 */
+		bottom: 55px; /* 元素的位置要離畫面下面多遠 */
 		z-index: 10;  /* 元素的圖層位置 */
 		border-bottom: 0;  /* 去掉下面出現的底線 */
 		background-color: brown;  /* 元素顏色 */
@@ -4040,4 +4041,5 @@ header.major2 > :first-child:after {
 .turn-img {
 	width: 100%;
 	height: 100%;
+}
 	
